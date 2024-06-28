@@ -1,6 +1,5 @@
 import { useState } from "react"
 
-
 function App() {
   const [bgcolor, setbgcolor] = useState("black")
 
@@ -14,7 +13,6 @@ function App() {
         <button onClick={()=>setbgcolor("white")} className="bg-white rounded-3xl px-6 py-2">White</button>
         <button onClick={()=>setbgcolor("orange")} className="bg-orange-500 rounded-3xl px-6 py-2">Orange</button>
         <button onClick={()=>setbgcolor("black")} className="bg-black rounded-3xl px-6 py-2 text-white">Black</button>
-        <button onClick={()=>setbgcolor("bg-violet-500")} className="bg-violet-800 rounded-3xl px-6 py-2">Violet</button>
       </div>
     </div>
   )
